@@ -12,7 +12,7 @@ function contactpage() {
     return (
         <div>
             <nav>
-                <div className='flex justify-center rounded-lg'>
+                <div className='flex justify-center rounded-lg flex-wrap' >
                     <div className='w-10 '></div>
                     <div className='text-3xl py-8 hover:text-sky-400 font-serif absolute top-0 left-0'><a href="/home"> Home </a></div>
                     <div className='w-10'></div>
@@ -38,16 +38,16 @@ function contactpage() {
                 </div>
             </div>
             <div className='w-30 h-20'></div>
-            <div className='flex justify-center'>
+            <div className='flex justify-center '>
                 <span><h2 className='text-2xl font-serif'>Organiser</h2> <p className='h-4'></p><p className='font-medium text-xl font-serif'>Sujal kumar Agarwal</p> </span>
                 <span className='w-20'></span>
                 <span><h2 className='text-2xl font-serif'>Links</h2> <p className='h-4'></p><p className='font-medium text-xl hover:text-blue-300 font-serif'><a href='https://www.linkedin.com/in/sujal-agarwal-0420a3288/'>Linkedln</a></p></span>
                 <span className='w-20'></span>
-                <span><h2 className='text-2xl font-serif'>Email</h2> <p className='h-4'></p> <p className='font-medium text-xl font-serif'>sujalagarwalwk@gmail.com</p> </span>
+                <span><h2 className='text-2xl font-serif'>Email</h2> <p className='h-4'></p> <p className='font-medium text-xl font-serif'><a href='mailto: sujalagarwalwk@gmail.com'>sujalagarwalwk@gmail.com</a></p> </span>
             </div>
             <p className='h-30 w-15'></p><br />
             <div>
-                <h2 className='flex justify-center py-3 text-4xl font-serif '>Know more about the organisation</h2>
+                <h2 className='flex justify-center py-3 text-4xl font-serif flex-wrap'>Know more about the organisation</h2>
                 <p className='text-xl font-serif px-80'>Our primary mission is to foster a vibrant and inclusive esports environment where players of all skill levels can come together to compete, learn, and connect. By organizing and facilitating various esports events and tournaments, we aim to enhance the overall gaming experience within our community.</p>
                 <br />
                 <p className='text-xl font-serif px-80'>We encourage all members of our community to get involved with our esports initiatives. Whether you're a seasoned competitor, a casual gamer, or someone interested in helping behind the scenes, there will be opportunities for everyone to contribute and make our esports community even better.

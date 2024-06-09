@@ -46,7 +46,7 @@ function igs() {
                     <div className='h-64'></div>
                     <div className="font-bold text-7xl mb-8">Blast.TV Major</div>
 
-                    <div className="flex space-x-4">
+                    <div className="flex space-x-4 ">
                         <button className="bg-blue-500 text-white px-4 py-2 rounded-full"><a href='https://blast.tv/major'>Register Now</a></button>
                         <button className="bg-gray-700 text-white px-4 py-2 rounded-full"><a href='/login'>Login/Sign Up</a></button>
                     </div>
